@@ -1,0 +1,26 @@
+{
+  "name": "moviesgram",
+  "version": "1.0.0",
+  "description": "This is a web app to find movies and tv shows",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NatanaelRojo/moviesgram.git"
+  },
+  "keywords": [
+    "javascript",
+    "movies",
+    "api",
+    "html",
+    "css"
+  ],
+  "author": "Natanael Rojo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NatanaelRojo/moviesgram/issues"
+  },
+  "homepage": "https://github.com/NatanaelRojo/moviesgram#readme"
+}
