@@ -3,6 +3,7 @@ const homePage = () => {
     headerSection.style.background = "";
     arrowBtn.classList.add("inactive");
     headerTitle.classList.remove('inactive');
+    searchForm.classList.remove('inactive');
     headerCategoryTitle.classList.add('inactive');
     headerCategoryTitle.classList.add('inactive');
     trendingPreviewSection.classList.remove('inactive');
@@ -28,6 +29,7 @@ const categoryPage = () => {
     const [hash, categoryData] = location.hash.split("=");
     const [categoryId, categoryName] = categoryData.split("-");
     const categoryTitle = document.createTextNode(categoryName);
+    headerCategoryTitle.innerText = '';
     headerCategoryTitle.appendChild(categoryTitle);
     getMoviesByCategory(categoryId);
 }

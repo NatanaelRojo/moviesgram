@@ -12,7 +12,7 @@ const IMAGES_URL = "https://image.tmdb.org/t/p/w300";
 const IMAGES_POSTER_URL = "https://image.tmdb.org/t/p/w500";
 
 const getTrendingMoviesPreview = async () => {
-    const { data } = await api("trending/movies/day");
+    const { data } = await api("trending/movie/day");
     const movies = data.results;
     createMoviesList(movies, trendingMoviesPreviewList);
 }
